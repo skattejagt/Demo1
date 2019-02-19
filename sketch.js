@@ -1,10 +1,14 @@
-function setup(){
-  createCanvas(500,500,WEBGL);
-  ortho(-width, width, height, -height/2, 0.1, 100);
+function setup() {
+  let canvas = createCanvas(600, 400);
+  canvas.position(300, 50);
+
+  let txt = createDiv('This is an HTML string!');
+  txt.position(50, 50);
 }
-function draw(){
-  box(30);
-  translate(100,100,-100);
-  rotate(PI/4, [1,1,0]);
-  box(30);
+
+function draw() {
+  background(220, 180, 200);
+
+  ellipse(width/2, height/2, 100, 100);
+  ellipse(width/4, height/2, 50, 50);
 }
