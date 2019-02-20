@@ -1,14 +1,22 @@
+let y = 100;
+
+// The statements in the setup() function
+// execute once when the program begins
 function setup() {
-  let canvas = createCanvas(600, 400);
-  canvas.position(300, 50);
-
-  let txt = createDiv('This is an HTML string!');
-  txt.position(50, 50);
+  // createCanvas must be the first statement
+  createCanvas(720, 400);
+  stroke(255); // Set line drawing color to white
+  frameRate(30);
 }
-
+// The statements in draw() are executed until the
+// program is stopped. Each statement is executed in
+// sequence and after the last line is read, the first
+// line is executed again.
 function draw() {
-  background(220, 180, 200);
-
-  ellipse(width/2, height/2, 100, 100);
-  ellipse(width/4, height/2, 50, 50);
+  background(0); // Set the background to black
+  y = y - 1;
+  if (y < 0) {
+    y = height;
+  }
+  line(0, y, width, y);
 }
