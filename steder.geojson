@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "navn": "workshop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.141265869140623,
+          55.653270186042704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "navn": "kantine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.139527797698975,
+          55.6536696955482
+        ]
+      }
+    }
+  ]
+}
