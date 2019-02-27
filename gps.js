@@ -8,10 +8,6 @@ let pheding = {};
 let pspeed = {};
 let pfence = {};
 
-function getGps() {
-  getCurrentPosition(gpsKort)
-}
-
 function setup() {
   if (geoCheck() == true) {
     pfence = createP();
