@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Navn": "Hjemme"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.892673373222351,
+          55.682535568937716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Navn": "Bjarke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.891825795173645,
+          55.6824266925483
+        ]
+      }
+    }
+  ]
